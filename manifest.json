@@ -55,28 +55,13 @@
     "geolocation",
     "idle",
     "power",
-    "system.cpu",
-    "system.memory",
-    "system.storage",
-    "topSites",
-    "bookmarks",
-    "history",
-    "favicon",
-    "tabCapture",
-    "tabGroups",
-    "tts",
-    "tts_engine",
-    "unlimitedStorage",
-    "platformKeys"
+    "unlimitedStorage"
   ],
   "host_permissions": [
     "<all_urls>"
   ],
   "optional_permissions": [
     "nativeMessaging",
-    "proxy",
-    "vpnProvider",
-    "wallpaper",
     "sidePanel"
   ],
   "web_accessible_resources": [
@@ -110,25 +95,5 @@
     "default_path": "sidepanel.html"
   },
   "incognito": "split",
-  "minimum_chrome_version": "100.0.0.0",
-  "author": {
-    "email": "developer@example.com"
-  },
-  "homepage_url": "https://example.com",
-  "update_url": "https://example.com/updates.xml",
-  "short_name": "Comfort Kit",
-  "requirements": {
-    "plugins": {
-      "npapi": true
-    }
-  },
-  "browser_specific_settings": {
-    "gecko": {
-      "id": "{d1d7d8e0-e9a4-4f5c-9c1d-1234567890ab}",
-      "strict_min_version": "109.0"
-    },
-    "safari": {
-      "strict_min_version": "15.0"
-    }
-  }
+  "minimum_chrome_version": "100.0.0.0"
 }
