@@ -1,0 +1,18 @@
+.comfort-kit-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.comfort-kit-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.comfort-kit-smooth-scroll { scroll-behavior: smooth; }
+.comfort-kit-backdrop-blur { backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+.comfort-kit-glass { background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.3); }
+.comfort-kit-center { display: flex; align-items: center; justify-content: center; }
+.comfort-kit-stack { display: flex; flex-direction: column; }
+.comfort-kit-text-center { text-align: center; }
+.comfort-kit-text-primary { color: #1a1a1a; }
+.comfort-kit-text-secondary { color: #666; }
+.comfort-kit-rounded { border-radius: 8px; }
+.comfort-kit-shadow { box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
+.comfort-kit-transition { transition: all 0.2s ease; }
+.comfort-kit-cursor-pointer { cursor: pointer; }
+.comfort-kit-relative { position: relative; }
+.comfort-kit-absolute { position: absolute; }
+.comfort-kit-fixed { position: fixed; }
+.comfort-kit-z-max { z-index: 2147483647; }

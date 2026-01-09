@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Tab</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    
+    .container {
+      text-align: center;
+      padding: 40px;
+    }
+    
+    .logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0 auto 24px;
+    }
+    
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    
+    p {
+      font-size: 16px;
+      opacity: 0.9;
+      margin-bottom: 32px;
+    }
+    
+    .search-input {
+      width: 100%;
+      max-width: 500px;
+      padding: 16px 24px;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      background: rgba(255, 255, 255, 0.95);
+      color: #333;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      outline: none;
+    }
+    
+    .shortcuts {
+      display: flex;
+      gap: 16px;
+      margin-top: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .shortcut {
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.15);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    
+    .shortcut:hover {
+      transform: scale(1.1);
+      background: rgba(255, 255, 255, 0.25);
+    }
+    
+    .footer {
+      position: fixed;
+      bottom: 20px;
+      font-size: 12px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">CK</div>
+    <h1>Welcome to Comfort Kit</h1>
+    <p>Your enhanced new tab page</p>
+    <input type="text" class="search-input" placeholder="Search the web..." id="searchInput">
+    <div class="shortcuts">
+      <div class="shortcut" onclick="window.location.href='https://google.com'">🔍</div>
+      <div class="shortcut" onclick="window.location.href='https://youtube.com'">📺</div>
+      <div class="shortcut" onclick="window.location.href='https://gmail.com'">📧</div>
+      <div class="shortcut" onclick="window.location.href='https://github.com'">💻</div>
+    </div>
+  </div>
+  <div class="footer">Powered by Comfort Kit</div>
+  <script>
+    document.getElementById('searchInput').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent(this.value);
+      }
+    });
+  </script>
+</body>
+</html>

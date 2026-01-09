@@ -1,0 +1,54 @@
+{
+  "ext_name": {
+    "message": "Comfort Kit",
+    "description": "The name of the extension"
+  },
+  "ext_description": {
+    "message": "A comprehensive browser extension for enhanced web experience and productivity",
+    "description": "The description of the extension"
+  },
+  "ext_default_title": {
+    "message": "Comfort Kit",
+    "description": "Default title for the extension icon"
+  },
+  "popup_title": {
+    "message": "Comfort Kit Options",
+    "description": "Title for the popup"
+  },
+  "options_title": {
+    "message": "Settings",
+    "description": "Title for the options page"
+  },
+  "btn_save": {
+    "message": "Save",
+    "description": "Save button text"
+  },
+  "btn_cancel": {
+    "message": "Cancel",
+    "description": "Cancel button text"
+  },
+  "btn_reset": {
+    "message": "Reset to Defaults",
+    "description": "Reset button text"
+  },
+  "setting_enabled": {
+    "message": "Enable Extension",
+    "description": "Enable extension setting label"
+  },
+  "setting_notifications": {
+    "message": "Enable Notifications",
+    "description": "Enable notifications setting label"
+  },
+  "setting_analytics": {
+    "message": "Anonymous Analytics",
+    "description": "Enable analytics setting label"
+  },
+  "context_menu_item1": {
+    "message": "Quick Action 1",
+    "description": "Context menu item 1 label"
+  },
+  "context_menu_item2": {
+    "message": "Quick Action 2",
+    "description": "Context menu item 2 label"
+  }
+}
